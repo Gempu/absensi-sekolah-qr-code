@@ -1,0 +1,8 @@
+<?php
+if (extension_loaded('gd')) {
+    echo "GD is installed!\n";
+    echo "GD Version: " . gd_info()['GD Version'];
+} else {
+    echo "GD is NOT installed!";
+}
+?>
